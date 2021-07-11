@@ -1,0 +1,36 @@
+.introduction {
+      color: rgb(254, 0, 0);
+}
+header {
+      margin-bottom: 100px;
+}
+header p {
+      background-color: blue;
+      color: white;
+      width: 100px;
+}
+
+h2 {
+      color: white;
+      background-color: green;
+      padding: 5px;
+}
+
+.what-next span {
+      color: rgb(254, 0, 0);
+}
+
+
+.what-learn h2 {
+      padding: 40px;
+}
+.form p {
+      padding-left: 100px;
+}
+.what-learn ul li {
+      font-size: 30px;
+      border: 1px solid black;
+}
+.what-learn ul {
+      margin: 30px 0;
+}

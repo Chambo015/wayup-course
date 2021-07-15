@@ -125,6 +125,7 @@ input {
     border: 1px solid #bbbbbb;
     padding: 16px 23px;
     margin: 15px auto;
+    border-radius: 5px;
 }
 .btn-form {
     border: none;

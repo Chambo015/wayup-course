@@ -31,10 +31,10 @@ p {
 .header .wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .offer {
     width: 550px;
-    margin-top: 147px;
     color: white;
 }
 .title {
@@ -143,4 +143,58 @@ input {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: white
+}
+
+/* responsive */
+
+/* от 992px до 1200px */
+@media screen and (max-width: 1200px){
+    .container {
+        width: 960px;
+    }
+    /* картинка выходит за границу контейнера  */
+    .wrapper {
+        overflow-x: hidden; 
+    }
+    .oruafl {
+        transform: translateX(0);
+    }
+}
+/* от 768px до 992px */
+@media screen and (max-width: 992px){
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .offer, .title-text {
+        width: 100%;
+    }
+    .oruafl {
+        max-width: 100%;
+    }
+}
+/* от 576px до 768px */
+@media screen and (max-width: 768px){
+    .container {
+        width: 540px;
+    }
+    .ahead-blocks {
+        flex-direction: column;
+       align-items: center;
+    }
+    .ahead-block {
+        margin-bottom: 40px;
+    }
+}
+/* от 0 до 576px */
+@media screen and (max-width: 576px){
+    .container {
+        width: 90%;
+    }
+    input, .btn {
+        width: 100%;
+    }
 }

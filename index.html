@@ -7,36 +7,40 @@
       <title>WayUp</title>
       <link rel="stylesheet" href="css/main.css">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
     <header id="header" class="header">
         <div class="container">
-            <img src="img/logo.png" alt="Logo">
+            <img class="animate__animated animate__fadeInDown" src="img/logo.png" alt="Logo">
             <div class="wrapper">
-                <div class="offer">
+                <div class="offer animate__animated animate__fadeInLeft">
                     <h1 class="title">С помощью верстки <br>
                     я создам ту жизнь, о которой
                     <span>мечтаю!</span></h1>
                     <p class="title-text">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</p>
                     <a class="btn" href="#">Двигаться к мечте!</a>
                 </div>
-                <img class="oruafl" src="img/ORUAFL.png" alt="ORUAFL">
+                <img class="animate__animated  oruafl animate__fadeInRight" src="img/ORUAFL.png" alt="ORUAFL">
             </div>
         </div>
     </header>
     <section id="ahead" class="ahead">
         <div class="container">
-            <h2 class="section-title">Что меня ждет впереди</h2>
+            <h2 class="section-title animate__animated ">Что меня ждет впереди</h2>
             <div class="ahead-blocks">
-                <div class="ahead-block free-time">
+                <div class="ahead-block animate__animated free-time">
                     <h3>Свободное время</h3>
                     <p>Мне нужно свободное время на семью и самое настоящее</p>
                 </div>
-                <div class="ahead-block travel">
+                <div class="ahead-block  animate__animated  travel">
                     <h3>Яркие путешествия</h3>
                     <p>Работать откуда угодно - что может быть лучше?</p>
                 </div>
-                <div class="ahead-block creat">
+                <div class="ahead-block animate__animated  creat">
                     <h3>Создание ценности</h3>
                     <p>Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
                 </div>
@@ -45,8 +49,8 @@
     </section>
     <section id="form" class="form">
         <div class="container">
-            <h2 class="section-title">Форма заказа билета в будущее</h2>
-            <form action="#">
+            <h2 class="section-title animate__animated ">Форма заказа билета в будущее</h2>
+            <form class="animate__animated " action="#">
                 <input type="text" name="name" placeholder="Имя" required>
                 <input type="email" name="email" placeholder="E-mail" required>
                 <input type="tel" name="phone" placeholder="Телефон" required>
@@ -60,6 +64,8 @@
             <p class="credits">© Все мои мечты защищены моим трудолюбием</p>
         </div>
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
 

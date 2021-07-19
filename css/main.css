@@ -2,6 +2,7 @@ body {
     font-family: Ubuntu, sans-serif;
     font-size: 15px;
     margin: 0;
+    overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -32,6 +33,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .offer {
     width: 550px;
@@ -143,6 +145,9 @@ input {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: white
+}
+.animate__animated {
+    opacity: 0;
 }
 
 /* responsive */
